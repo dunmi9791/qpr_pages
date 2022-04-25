@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="faqs" model="ir.ui.view">
+        <field name="name">FAQs</field>
+        <field name="type">qweb</field>
+        <field name="key">qpr_pages.faqs</field>
+        <field name="arch" type="xml">
+            <t name="FAQS" t-name="qpr_pages.faqs">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty faqs">
+                        <section class="hero text-center ">
+                            <div class="container-fluid row">
+                                <div class="col-xl-6 col-lg-6  col-md-12 mt-md-1 mr-auto ml-auto mt-xl-4 pt-xl-2 mt-lg-1 pt-lg-1">
+                                    <h1 class="text-light mt-lg-0 mt-md-3 mt-sm-2 mt32"> Frequently asked questions</h1>
+                                </div>
+                            </div>
+                        </section>
+                        
+
+                        <section class=" " style="background-color:#fff;">
+
+
+                            <div class="container-fluid row my-lg-5 my-sm-5">
+
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0 ">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            <div class="float-left">
+                                                                What is SMERP?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    SMERP stands for Small &amp; Medium Enterprise Resource Planning. It is a solution designed
+                                                    for SME’s to manage their
+                                                    business operations efficiently.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1"> </div>
+                                <div class="col-lg-1 var"> </div>
+                                <div class="col-lg-5 pl-0 mb-lg-3 my-md-3 my-sm-3 ">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingTWO">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseTWO" aria-expanded="true"
+                                                            aria-controls="collapseOne">
+                                                            <div class="float-left text-left">
+                                                                How do I change Plans?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div id="collapseTWO" class="collapse" aria-labelledby="headingTWO"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    After expiry, you can change your current SMERP plan to one of the various available
+                                                    pricing plans such as the monthly
+                                                    or yearly Retail Gold, Retail Silver and Retail Platinum plans on offer. To do that,
+                                                    simply sign-in to your store and
+                                                    click on the ‘Retail Stores’ option. Click on your store name
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- END OF FIRST ROW -->
+
+
+
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingTHREE">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseTHREE" aria-expanded="true"
+                                                            aria-controls="collapseTHREE">
+                                                            <div class="float-left text-left">
+                                                                How do I add Users?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="collapseTHREE" class="collapse" aria-labelledby="headingTHREE"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Simply go to settings and click on either Manage User Rights or Enter the User’s email
+                                                    address to send them an invite.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1"> </div>
+                                <div class="col-lg-1 var"> </div>
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingFOUR">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseFOUR" aria-expanded="true"
+                                                            aria-controls="collapseFOUR">
+                                                            <div class="float-left text-left">
+                                                                Can I register products using excel or a csv document?
+
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div id="collapseFOUR" class="collapse" aria-labelledby="headingFOUR"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Yes, you can create and update your products inventory by importing a CSV document. More
+                                                    conveniently, you can also
+                                                    download and edit a provided CSV template for products creation and registration.
+                                                    Simply navigate to products, Clicking on the import button and click on ‘Import Template
+                                                    for Products’ to download the
+                                                    template.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingFIVE">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseFIVE" aria-expanded="true"
+                                                            aria-controls="collapseFIVE">
+                                                            <div class="float-left text-left">
+                                                                Is SMERP available offline?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="collapseFIVE" class="collapse" aria-labelledby="headingFIVE"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    No, SMERP is a cloud based ERP solution. This means that SMERP can only be accessed via
+                                                    the internet.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1"> </div>
+                                <div class="col-lg-1 var"> </div>
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingSIX">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseSIX" aria-expanded="true"
+                                                            aria-controls="collapseSIX">
+                                                            <div class="float-left text-left">
+                                                                Is there a mobile app?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+                                                <div id="collapseSIX" class="collapse" aria-labelledby="headingSIX"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Yes. SMERP currently has an android application which conveniently offers the exact
+                                                        same functionalities as the web
+                                                        application.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingSEVEN">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseSEVEN" aria-expanded="true"
+                                                            aria-controls="collapseSEVEN">
+                                                            <div class="float-left text-left">
+                                                                Can I modify the taxes?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="collapseSEVEN" class="collapse" aria-labelledby="headingSEVEN"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    Yes. the taxes and tax rate can be modified and updated as desired. This can be done by
+                                                    clicking on settings from the
+                                                    POS sidebar. This displays various Point of Sale settings including Taxes. By clicking,
+                                                    you can ‘Create and Edit’ your
+                                                    taxes.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1"> </div>
+                                <div class="col-lg-1 var"> </div>
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingEight">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseEight" aria-expanded="true"
+                                                            aria-controls="collapseEight">
+                                                            <div class="float-left text-left">
+                                                                Is there a free version of SMERP?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+                                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        SMERP offers a 15 day free trial period for all new users. After this period, the
+                                                        user must select and pay for the
+                                                        subscription plan of their choice.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                            <div class="card-header" id="headingNine">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                            data-toggle="collapse" data-target="#collapseNine" aria-expanded="true"
+                                                            aria-controls="collapseNine">
+                                                            <div class="float-left text-left">
+                                                                How can I pay for SMERP?
+                                                            </div>
+
+                                                            <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                    src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                        </button>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    You can pay your SMERP subscription online using your bank card. SMERP payment gateway
+                                                    is securely powered by Paystack.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-1"> </div>
+                                    <div class="col-lg-1 var"> </div>
+                                    <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingTen">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                                data-toggle="collapse" data-target="#collapseTen" aria-expanded="true"
+                                                                aria-controls="collapseTen">
+                                                                <div class="float-left text-left">
+                                                                    How can I monitor my store?
+                                                                </div>
+
+                                                                <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                        src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                            </button>
+
+                                                        </div>
+
+                                                    </div>
+                                                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            SMERP allows you to monitor your store activities from your Point Of Sale
+                                                            dashboard. The Dashboard shows you various
+                                                            statistics in different customizable views. These statistics include; Total
+                                                            Sales, Product alerts, Active and Closed
+                                                            sessions, Number of Customers, Top products by units sold, POS session statuses
+                                                            etc.
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingELEVEN">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                                data-toggle="collapse" data-target="#collapseELEVEN" aria-expanded="true"
+                                                                aria-controls="collapseELEVEN">
+                                                                <div class="float-left text-left">
+                                                                    How can I add/register customers?
+                                                                </div>
+
+                                                                <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                        src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                            </button>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div id="collapseELEVEN" class="collapse" aria-labelledby="headingELEVEN"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        You can add/register new customers on SMERP by clicking on Customers on the sidebar
+                                                        and either creating the new
+                                                        customers or importing a CSV file containing the Customer details by clicking the
+                                                        ‘Create’ or ‘Import’ button
+                                                        respectively.<br /><br />Alternatively, a customer can be created at checkout by
+                                                        clicking on the customer icon, select ‘Add customer’ and
+                                                        inputting their details.
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1"> </div>
+                                    <div class="col-lg-1 var"> </div>
+                                    <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingTWELEVE">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                                data-toggle="collapse" data-target="#collapseTWELEVE" aria-expanded="true"
+                                                                aria-controls="collapseTWELEVE">
+                                                                <div class="float-left text-left">
+                                                                    How do I close a session?
+                                                                </div>
+
+                                                                <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                        src="qpr_pages/static/src/img/open.svg"/> </div>
+                                                            </button>
+
+                                                        </div>
+
+                                                    </div>
+                                                    <div id="collapseTWELEVE" class="collapse" aria-labelledby="headingTWELEVE"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            Simply select the ‘Sessions’ option from the sidebar, select a POS session
+                                                            currently In Progress and click on the
+                                                            ‘Validate Closing &amp; Post Entries’ button at the top left corner to finish.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pr-0">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" id="headingTHIRTEEN">
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <button class="btn mb-0 btn-link h3  btn-block text-danger " type="button"
+                                                                data-toggle="collapse" data-target="#collapseTHIRTEEN" aria-expanded="true"
+                                                                aria-controls="collapseTHIRTEEN">
+                                                                <div class="float-left text-left">
+                                                                    Can a customer return purchased products?
+                                                                </div>
+
+                                                                <div class="float-right  "> <img class="pb-lg-2 ml-lg-5 ml-md-5"
+                                                                        src="qpr_pages/static/src/img/open.svg"/>
+                                                                </div>
+                                                            </button>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div id="collapseTHIRTEEN" class="collapse" aria-labelledby="headingTHIRTEEN"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Yes. Start by opening a session that will be used to register the refund. After this
+                                                        is done, select the ‘Orders’ option
+                                                        from the sidebar and click the order entry. The system displays the order details
+                                                        including Products, Payments etc. To
+                                                        return the products, simply click on the ‘Return Products’ button on the top left
+                                                        corner. The return is reflected in the
+                                                        system’s financial records.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1"> </div>
+                                        <!-- <div class="col-lg-1 var"> </div> -->
+                                        <div class="col-lg-5 mb-lg-3 my-md-3 my-sm-3 pl-0"/>
+                                    </div>
+                                </div>
+
+                        </section>
+                        <t t-call="qpr_pages.subscribe_social_section"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="faqs_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/faqs</field>
+        <field name="view_id" ref="faqs"/>
+    </record>
+
+    <record id="menu_faqs" model="website.menu">
+        <field name="name">FAQs</field>
+        <field name="url">/faqs</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">62</field>
+    </record>
+</odoo>

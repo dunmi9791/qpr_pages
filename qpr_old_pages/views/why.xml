@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="why_qretail" model="ir.ui.view">
+        <field name="name">Why Qretail</field>
+        <field name="type">qweb</field>
+        <field name="key">qpr_pages.why_qretail</field>
+        <field name="arch" type="xml">
+            <t name="Why Qretail" t-name="qpr_pages.why_qretail">
+                 <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+                      <section class="about page pb104 oe_img_bg oe_custom_bg" id="about2" style="background-image: url(&quot;/qpr_pages/static/src/img/qretail_green_bg.png&quot;);">
+                        <div class="inner_about_area">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                                  <div class="about_us2_mb" data-height-xl="426">
+                                    <img src="/qpr_pages/static/src/img/y1.png" style="top: 0px; left: 0px; animation-name: o_anim_bounce_in_down; visibility: visible; animation-play-state: running;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip882300" class="o_anim_bounce_in_down o_animate o_animated"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6  wow fadeInRight o_anim_fade_in_right o_animate o_animated" data-wow-duration="1s" data-wow-delay=".5s" style="animation-name: o_anim_fade_in_right; visibility: visible; animation-play-state: running;">
+                                <div class="inner_about_title">
+                                  <p><font style="font-size: 36px;"><b>Enhances your business to a<br/><br/>new level</b></font><br/><br/>It is Cloud Based SaaS Platform, which will enhance your business to a new level with digital management of entire store operations from product creation to sales to insights.</p>
+                                </div>
+                                <div class="inner_about_desc">
+                                  <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s">
+                                    <br/>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="content">
+                        <div class="content-wrap">
+                          <div class="clearfix container">
+                            <div class="clearfix row">
+                              <div class="col-md-5 o_anim_fade_in_left o_animate o_animated" style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: running;">
+                                <blockquote>
+                                  <font style="font-weight: bold; font-size: 36px;">
+                                    <br/>
+                                  </font>
+                                  <font style="font-weight: bold; font-size: 36px;">Manages your business using any devise<br/></font>
+                                  <font style="font-size: 18px;">
+                                    <br/>
+                                  </font>
+                                  <font style="font-size: 18px;">It allows you to manage your business using any type of devices such as mobile phones, tablets, computers as well as industrial touch-screen terminals with operating systems running in Chrome, Firefox, or Safari. Microsoft Windows, Apple OSX, Linux, Android, and iOS. </font>
+                                </blockquote>
+                              </div>
+                              <div class="col-md-7">
+                                <div class="about_us1_mb ohidden" data-height-xl="426">
+                                  <img src="/qpr_pages/static/src/img/y2.png" style="top: 0px; left: 0px; animation-name: o_anim_rotate_in_down_right; visibility: visible; animation-play-state: running;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip690004" class="o_anim_rotate_in_down_right o_animate o_animated"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="about page pb96 oe_img_bg oe_custom_bg" id="about2" style="background-image: url(&quot;/qpr_pages/static/src/img/qretail_green_bg.png&quot;);">
+                        <div class="inner_about_area">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6" style="">
+                                <div class="about_phone fadeInLeft wow" data-wow-duration="1s" data-wow-delay=".5s">
+                                  <div class="about_us2_mb" data-height-xl="426">
+                                    <img src="/qpr_pages/static/src/img/y3.png" style="top: 0px; left: 0px; visibility: visible;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip51243" class="o_animate o_animated o_animate_preview o_anim_bounce_in"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 fadeInRight wow o_anim_fade_in_right o_animate" data-wow-duration="1s" data-wow-delay=".5s" style="animation-play-state: paused;">
+                                <div class="inner_about_title">
+                                  <p>
+                                    <span style="font-size: 36px;">
+                                      <b><br/>Integrates and automatically <br/></b>
+                                      <b><br/>synchronizes with any <br/><br/>Accounting systems</b>
+                                    </span>
+                                    <font style="font-size: 18px;">&amp;nbsp;</font>
+                                  </p>
+                                </div>
+                                <div class="inner_about_desc">
+                                  <div class="fadeInUp single_about_area wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                    <h3 class="single_about_area-h3"> </h3>
+                                  </div>
+                                  <div class="fadeInUp single_about_area wow" data-wow-duration=".5s" data-wow-delay="2s">
+                                    <h3 class="single_about_area-h3">&amp;nbsp; </h3>
+                                    <p>
+                                      <br/>
+                                      <br/>
+                                    </p>
+                                    <p> </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="content">
+                        <div class="content-wrap">
+                          <div class="clearfix container">
+                            <div class="clearfix row">
+                              <div class="col-md-5 o_anim_fade_in_left o_animate" style="animation-play-state: paused;">
+                                <p class="lead">
+                                  <small>
+                                    <span style="font-weight: bolder;">
+                                      <font style="font-size: 36px;"><br/>Flexible payment methods<br/></font>
+                                    </span>
+                                    <font style="font-size: 18px;">It accepts cash, checks and credit payment methods and new types of payment methods can also be added. </font>
+                                  </small>
+                                </p>
+                              </div>
+                              <div class="col-md-7">
+                                <div class="about_us1_mb ohidden" data-height-xl="426"><img src="/qpr_pages/static/src/img/qretail_smallpng.png" style="top: 0px; left: 0px; animation-play-state: paused;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip264771" class="o_anim_rotate_in o_animate"/>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="about page pb88 oe_img_bg oe_custom_bg" id="about2" style="background-image: url(&quot;/qpr_pages/static/src/img/qretail_green_bg.png&quot;);">
+                        <div class="inner_about_area">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="about_phone fadeInLeft wow" data-wow-duration="1s" data-wow-delay=".5s">
+                                  <div class="about_us2_mb" data-height-xl="426">
+                                    <br/>
+                                    <br/>
+                                    <img class="d-block img-fluid mx-auto o_we_custom_image" src="/qpr_pages/static/src/img/y5_3d.png" data-original-title="" title="" aria-describedby="tooltip383593"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 fadeInRight wow o_anim_fade_in_right o_animate" data-wow-duration="1s" data-wow-delay=".5s" style="animation-play-state: paused;">
+                                <div class="inner_about_desc">
+                                  <div class="fadeInUp single_about_area wow" data-wow-duration=".5s" data-wow-delay="2s">
+                                    <br/>
+                                    <span style="font-size: 36px;">
+                                      <b><br/>Secured multiple cashier accounts
+                                    
+                                    </b>
+                                    </span>
+                                    <br/>
+                                    <span style="font-size: 19px;"/>
+                                    <p>
+                                      <span style="font-size: 18px; color: rgb(85, 85, 85);">
+                                        <br/>
+                                      </span>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="content" class="pt0">
+                        <div class="content-wrap">
+                          <div class="clearfix container">
+                            <div class="clearfix row">
+                              <div class="col-md-5 o_animate o_anim_fade_in_left o_animated" style="animation-name: o_anim_fade_in_left; visibility: visible; animation-play-state: running;">
+                                <p class="lead">
+                                  <small>
+                                    <b>
+                                      <font style="font-size: 36px;">Real-time stock management<br/></font>
+                                    </b>
+                                  </small>
+                                  <font style="font-size: 18px;"><br/>It monitors stocks in real-time, inventory can be managed across all locations, and review shipments with the stock integration. </font>
+                                </p>
+                              </div>
+                              <div class="col-md-7">
+                                <div class="about_us1_mb ohidden" data-height-xl="426">
+                                  <img src="/qpr_pages/static/src/img/protect_2-copy.png" style="top: 0px; left: 0px; animation-play-state: paused;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip856579" class="o_anim_rotate_in o_animate float-left"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="about page pb104 oe_img_bg oe_custom_bg" id="about2" style="background-image: url(&quot;/qpr_pages/static/src/img/qretail_green_bg.png&quot;);">
+                        <div class="inner_about_area">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="about_phone fadeInLeft wow" data-wow-duration="1s" data-wow-delay=".5s">
+                                  <div class="about_us2_mb" data-height-xl="426">
+                                    <img src="/qpr_pages/static/src/img/y7.png" style="top: 0px; left: 0px; animation-play-state: paused;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip232868" class="o_anim_rotate_in o_animate d-block mx-auto"/>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 fadeInRight pb32 wow o_animate o_anim_fade_in_right" data-wow-duration="1s" data-wow-delay=".5s" style="animation-play-state: paused;">
+                                <div class="inner_about_title">
+                                  <p> </p>
+                                  <p>
+                                    <font style="font-size: 18px;">
+                                      <span style="font-size: 36px; font-weight: 700;">Transact online and offline</span>
+                                    </font>
+                                  </p>
+                                  <font style="font-size: 18px;"><br/>It allows you to work offline without losing your sales data and the software will keep working while offline.</font>
+                                  <p/>
+                                </div>
+                                <div class="inner_about_desc">
+                                  <div class="fadeInUp single_about_area wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                    <h3 class="single_about_area-h3"> </h3>
+                                  </div>
+                                  <div class="fadeInUp single_about_area wow" data-wow-duration=".5s" data-wow-delay="1.5s">
+                                    <h3 class="single_about_area-h3">&amp;nbsp; </h3>
+                                    <p>&amp;nbsp;</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="content" class="pb40">
+                        <div class="content-wrap">
+                          <div class="clearfix container">
+                            <div class="clearfix row">
+                              <div class="col-md-5 o_anim_fade_in_left o_animate" style="animation-play-state: paused;">
+                                <p class="lead">
+                                  <small>
+                                    <b>
+                                      <font style="font-size: 36px;">Manage thousands of products<br/></font>
+                                    </b>
+                                  </small>
+                                  <font style="font-size: 18px;"><br/>Its Point of Sale system is capable of performing at a scale of over 100,000 products. </font>
+                                </p>
+                              </div>
+                              <div class="col-md-7">
+                                <div class="about_us1_mb ohidden" data-height-xl="426">
+                                  <img src="/qpr_pages/static/src/img/y8.png" style="top: 0px; left: 0px; animation-play-state: paused;" data-animate="fadeInUp" data-delay="100" alt="Chrome" data-original-title="" title="" aria-describedby="tooltip311632" class="o_anim_bounce_in o_animate"/>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="why_qretail_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/why_qretail</field>
+        <field name="view_id" ref="why_qretail"/>
+    </record>
+
+    <record id="menu_why_qretail" model="website.menu">
+        <field name="name">Why Qretail?</field>
+        <field name="url">/why_qretail</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">60</field>
+    </record>
+</odoo>

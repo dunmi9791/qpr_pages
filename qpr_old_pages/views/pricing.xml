@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pricing" model="ir.ui.view">
+        <field name="name">Pricing</field>
+        <field name="type">qweb</field>
+        <field name="key">qpr_pages.pricing</field>
+        <field name="arch" type="xml">
+            <t name="Pricing" t-name="qpr_pages.pricing">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty pricing">
+                        <section class="hero text-center ">
+                            <div class="container-fluid row">
+                                <div class="col-xl-6 col-lg-6  col-md-12 mt-md-1 mr-auto ml-auto mt-xl-4 pt-xl-2 mt-lg-1 pt-lg-1">
+                                    <h1 class="text-light mt-lg-0 mt-md-3 mt-sm-2 "> Pricing Plan</h1>
+                                    <h5 class="text-light">Get the most powerful ERP for your business.</h5>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="s_comparisons pt48 pb24">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb16" data-name="Box">
+                                        <div class="card">
+                                            <h4 class="card-header back o_default_snippet_text">Basic Plan</h4>
+                                            <div class="card-body back text-center">
+                                                <h2 class="card-title">
+                                                    <span class="s_comparisons_currency o_default_snippet_text" style="color:white;">₦</span>
+                                                    <span class="s_comparisons_price">
+                                                        <b class="o_default_snippet_text" style="color:white;">2500</b>
+                                                    </span>
+                                                    <span class="s_comparisons_decimal o_default_snippet_text">.00</span>
+                                                </h2>
+                                                <small class="o_default_snippet_text">/ month</small>
+                                            </div>
+                                            <ul class="list-group list-group-flush text-left" style="font-size:20px;">
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                  src="/qpr_pages/static/src/img/tick.svg"/> Point of Sale</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Order Management</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Inventory Management</li>
+                                            </ul>
+                                            <div class="card-footer">
+                                                <p>
+                                                    <i class="o_default_snippet_text">*Every additional user cost N1,500/Month</i>
+                                                </p>
+                                                <button class="btn brand_color o_default_snippet_text o_plan_launch_btn" data-plan="lite" type="button" data-toggle="modal" data-target="#singup_modal">Sign up for free</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb16" data-name="Box">
+                                        <div class="card">
+                                            <h4 class="card-header back o_default_snippet_text" style="color:white;">Standard Plan</h4>
+                                            <div class="card-body back">
+                                                <h2 class="card-title">
+                                                    <span class="s_comparisons_currency o_default_snippet_text">₦</span>
+                                                    <span class="s_comparisons_price">
+                                                      <b class="o_default_snippet_text" style="color:white;">4000</b>
+                                                    </span>
+                                                    <span class="s_comparisons_decimal o_default_snippet_text">.00</span>
+                                                </h2>
+                                                <small class="o_default_snippet_text">/ month</small>
+                                            </div>
+                                            <ul class="list-group list-group-flush text-left" style="font-size:20px;">
+                                              <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                  src="/qpr_pages/static/src/img/tick.svg"/> Point of Sale</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Order Management</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Inventory Management</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Invoicing Solution</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Accounting</li>
+                                            </ul>
+                                            <div class="card-footer">
+                                              <p>
+                                                <i class="o_default_snippet_text">Instant setup, satisfied or reimbursed.</i>
+                                              </p>
+                                              <button style="color: white !important;background: #EE3B4F;" class="brand_color btn o_default_snippet_text o_plan_launch_btn" data-plan="pro" type="button" data-toggle="modal" data-target="#singup_modal">Sign up for free</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 s_col_no_bgcolor text-center pt16 pb16" data-name="Box">
+                                      <div class="card">
+                                        <h4 class="card-header back o_default_snippet_text">Pro Plan</h4>
+                                        <div class="card-body back text-center">
+                                          <h2 class="card-title">
+                                            <span class="s_comparisons_currency o_default_snippet_text">₦</span>
+                                            <span class="s_comparisons_price">
+                                              <b class="o_default_snippet_text">5000</b>
+                                            </span>
+                                            <span class="s_comparisons_decimal o_default_snippet_text">.00</span>
+                                          </h2>
+                                          <small class="o_default_snippet_text">/ month</small>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-left" style="font-size:20px;">
+                                            <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                  src="/qpr_pages/static/src/img/tick.svg"/> Point of Sale</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Order Management</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Inventory Management</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Invoicing Solution</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Accounting</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Loyalty Schemes</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> CRM</li>
+                                                <li class="list-group-item o_default_snippet_text"><img class="pb-lg-2 mr-lg-2"
+                                                src="/qpr_pages/static/src/img/tick.svg"/> Analytics</li>
+                                        </ul>
+                                        <div class="card-footer">
+                                          <p>
+                                            <i class="o_default_snippet_text">Instant setup, satisfied or reimbursed.</i>
+                                          </p>
+                                          <button class="brand_color btn  o_default_snippet_text o_plan_launch_btn" data-plan="enterprise" type="button" data-toggle="modal" data-target="#singup_modal">Sign up for free</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <t t-call="qpr_pages.subscribe_social_section"/>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="pricing_page" model="website.page">
+        <field name="website_published">True</field>
+        <field name="url">/pricing</field>
+        <field name="view_id" ref="pricing"/>
+    </record>
+
+    <record id="menu_pricing" model="website.menu">
+        <field name="name">Pricing</field>
+        <field name="url">/pricing</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">61</field>
+    </record>
+</odoo>

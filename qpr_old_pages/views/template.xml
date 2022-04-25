@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<odoo>
+
+        <template id="assets_common" name="store assets" inherit_id="web.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/qpr_pages/static/src/css/pages.css" type="text/less"/>
+                <script type="text/javascript" src="/qpr_pages/static/src/js/pages.js"></script>
+            </xpath>
+        </template>
+
+        <template id="layout" name="Main layout" inherit_id="website.layout">
+            <xpath expr="//div[@id='wrapwrap']" position="inside">
+                <t t-call="artesia.singup_modal"/>
+            </xpath>
+        </template>
+
+        <template id="frontend_layout_smes" name="store assets" inherit_id="portal.frontend_layout">
+            <xpath expr="//li//a[@t-attf-href='/web/login']" position="replace"/>
+            <xpath expr="//header//nav[hasclass('navbar-expand-md')][1]" position="attributes">
+                <attribute name="class" separator=" " add="boxedShadow"/>
+            </xpath>
+            <xpath expr="//header//nav[hasclass('navbar-expand-md')][1]//div[hasclass('container')]" position="attributes">
+                <attribute name="class">container-fluid</attribute>
+            </xpath>
+            <xpath expr="//header//nav[hasclass('navbar-expand-md')][1]" position="before">
+                <nav t-if="user_id._is_public()" class="navbar navbar-expand-lg " style="background-color: #fff;  ">
+                    <div class="container-fluid px-sm-1">
+                        <div class="row w-100 static-sm-header">
+                            <div class="col-md-12 col-lg-8 col-sm-12 px-md-0 mt-lg-0 ">
+                                <span class=" btn-ask-qst mr-lg-0 mr-sm-0 pr-sm-0 pr-lg-2  mb-sm-5 border-he-color ">
+                                    <button type=" button ml-lg-3 " class="mb-sm-2 mr-sm-5 mr-lg-2 btn btn-hecolor text-light btn-md" style="background-color:#504F4F;">Ask a question
+                                    </button>
+                                </span>
+                          
+                                <span class="mr-lg-0 mx-md-3 ml-sm-5 pl-sm-2   mx-lg-0 pl-md-2 border-left border-he-color">
+                                    <span style="color:#062847;" class="h6 my-sm-5 pl-lg-3 ">E-mail : info@smerp.ng</span>
+                                </span>
+                                <span class="mr-lg-2 phone float-right-md pl-lg-3 ml-lg-3 pl-md-2 ml-md-0 border-left border-he-color">
+                                    <span style="color:#062847;" class=" h6 ">Tel : +234-1-270-6065</span>
+                                </span>
+                            </div>
+                            <div class="col-md-12  col-lg-4 px-md-0 py-md-0">
+                                <ul class=" navbar-nav d-flex">
+                                    <li class="mr-lg-3 pr-lg-2 my-md-2 my-lg-0 my-sm-1 ">
+                                      <button type="pl-lg-4" data-toggle="modal" data-target="#singup_modal"  class="btn btn-sec btn-md border brand_color" style="border-color:#EE3B4F!important;"> <i class="fa fa-user-plus mr-lg-2 brand_color"></i>Register</button>
+                                    </li>
+                                    <li class="ml-lg-1 border-left my-sm-1 my-lg-0 pl-lg-4 border-he-color">
+                                      <a href="/web/login"><button type="ml-lg-3" class="btn btn-danger btn-md" style="background-color:#EE3B4F!important;"> <i class="fa fa-user mr-lg-2"></i>
+                                          Login</button></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </xpath>
+        </template>
+
+
+
+
+
+</odoo>
+
+

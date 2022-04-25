@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_layout" inherit_id='website.layout'>
+        <xpath expr="//div[hasclass('o_footer_copyright')]" position="replace"/>
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section>
+                    <div class="footer_top mb-lg-3">
+                        <div class="container-fluid">
+                            <div class="row mt-sm-3">
+                                <div class="col-lg-4 py-md-3 py-lg-0 ">
+                                    <div class="newslatter ml4 pr-lg-5">
+                                        <img style="width:35%;" src="/qpr_pages/static/src/img/sm.png" alt=""/>
+                                        <h6 class=" pt-lg-4   mt-lg-1 ">SMERP: is an Enterprise Resource Planning Solution that runs on the
+                                          cloud
+                                          and offers SMEs (Retail &amp; Online) the required
+                                          tool to manage their entire business operations such as Point of Sale, Inventory &amp; Accounting. Our
+                                          solution cuts across
+                                          all business verticals and aimed at reducing the cost of adopting technology as a tool for business
+                                          growth.
+
+                                        </h6>
+
+                                    </div>
+                                </div>
+
+                                <div class=" col-lg-3 col-sm-6">
+                                    <div class="row">
+                                        <div class=" col-lg-6 ">
+                                            <h3 class="footer-submenu">Menus</h3>
+                                            <ul class="" style="padding-left:0px!important; list-style-type:none;">
+                                                <li class="h5 px-0 pt-lg-4 pb-lg-2"><a href="/">Home</a></li>
+                                                <li class="h5 py-lg-1"><a href="/pricing">Pricing</a></li>
+                                                <li class="h5 py-lg-1"><a href="/faqs">FAQs</a></li>
+                                                <li class="h5 pt-lg-1"><a href="/about">About Us</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class=" col-lg-6 ">
+                                            <h3 class="footer-submenu">Our Products</h3>
+                                            <ul class="" style="padding-left:0px!important; list-style-type:none;">
+                                                <li class="h5 px-0 pt-lg-4 pb-lg-2"><a href="/pricing">Basic Plan</a></li>
+                                                <li class="h5 py-lg-1"><a href="/pricing">Standard Plan</a></li>
+                                                <li class="h5 py-lg-1"><a href="/pricing">Pro Plan</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6">
+                                    <h3 class="footer-submenu">Connect with us</h3>
+                                    <ul class="list-unstyled">
+                                        <li class="px-0 pt-lg-4 pb-lg-2">
+                                            <h6>
+                                                <i class="fa fa-2x fa-phone mr4" style="font-size: 12px;"></i>
+                                                <font class="o_force_ltr">+ 234 1 270 6065</font>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <i class="fa fa-2x fa-envelope mr4" style="font-size: 12px;"></i>
+                                                <font>info@smerp.ng</font>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <i class="fa fa-2x fa-vcard mr4" style="font-size: 12px;"></i>
+                                                <font>Block 54A, Plot 10, Off Rufus Giwa street,</font>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                <font> Lekki Phase 1, Lagos (Nigeria)</font>
+                                            </h6>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-6">
+                                    <h3/>
+                                    <ul class="px-0 pt-lg-4 pb-lg-2" style="padding-left:0px!important; list-style-type:none;">
+                                        <li class="h6 pt-lg-4 pb-lg-2">Cookie Policy</li>
+                                        <li class="h6 py-lg-2">Terms of Use</li>
+                                        <li class="h6 py-lg-2">Private Policy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="footer_bottom bg-danger h6 text-white" style="color:#ffffff!important;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-4 mt-lg-3 px-md-3 py-md-3">
+                                  <p style="color:white !important;">© 2020 SMERP. All rights reserved</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

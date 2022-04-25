@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="390" viewBox="0 0 1440 390">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.542" x2="0.483" y2="1.416" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee3b4f"/>
+      <stop offset="1" stop-color="#753134"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_285" data-name="Rectangle 285" width="1440" height="390" transform="translate(-7230 -16727)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_278" data-name="Rectangle 278" width="1440" height="490.419" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.337"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_276" data-name="Rectangle 276" width="2069.461" height="490.419" transform="translate(0 430.448) rotate(-12.007)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e96267"/>
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#753134"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.559" y1="0.373" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee3b4f"/>
+      <stop offset="0.379" stop-color="#fff"/>
+      <stop offset="1" stop-color="#753134"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f83349" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#753134"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee3b4f" stop-opacity="0.565"/>
+      <stop offset="1" stop-color="#753134"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_24" data-name="Mask Group 24" transform="translate(7230 16727)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_21" data-name="Mask Group 21" transform="translate(-7230 -16727)" clip-path="url(#clip-path-2)">
+      <g id="Mask_Group_19" data-name="Mask Group 19" transform="translate(89.582 -421.043) rotate(12.007)" clip-path="url(#clip-path-3)">
+        <ellipse id="Ellipse_119" data-name="Ellipse 119" cx="331.257" cy="330.538" rx="331.257" ry="330.538" transform="translate(808.376 124.808)" fill="url(#linear-gradient-2)"/>
+        <ellipse id="Ellipse_120" data-name="Ellipse 120" cx="405.268" cy="404.549" rx="405.268" ry="404.549" transform="translate(417.21 544.985)" fill="url(#linear-gradient-3)"/>
+        <g id="Group_1654" data-name="Group 1654" transform="translate(60.961 327.402) rotate(-17)">
+          <path id="Path_4047" data-name="Path 4047" d="M214.46,0C332.9,0,428.921,95.866,428.921,214.121S332.9,428.242,214.46,428.242,0,332.377,0,214.121,96.018,0,214.46,0Z" fill="url(#linear-gradient-4)"/>
+          <ellipse id="Ellipse_121" data-name="Ellipse 121" cx="262.646" cy="261.967" rx="262.646" ry="261.967" transform="translate(195.457 96.371)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Group_1658" data-name="Group 1658" transform="translate(561.994 158.409) rotate(-17)">
+          <path id="Path_4047-2" data-name="Path 4047" d="M269.105,0C417.728,0,538.211,120.287,538.211,268.68s-120.483,268.68-269.105,268.68S0,417.068,0,268.68,120.483,0,269.105,0Z" fill="url(#linear-gradient-4)"/>
+          <ellipse id="Ellipse_121-2" data-name="Ellipse 121" cx="329.569" cy="328.718" rx="329.569" ry="328.718" transform="translate(245.26 120.928)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Group_1655" data-name="Group 1655" transform="translate(-643.496 367.242)">
+          <ellipse id="Ellipse_122" data-name="Ellipse 122" cx="295.328" cy="294.61" rx="295.328" ry="294.61" transform="translate(0 151.257)" fill="url(#linear-gradient-8)"/>
+          <ellipse id="Ellipse_123" data-name="Ellipse 123" cx="430.418" cy="429.7" rx="430.418" ry="429.7" transform="translate(278.443)" fill="url(#linear-gradient-9)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

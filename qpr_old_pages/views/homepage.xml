@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template name="Subscribe Social Section" id="subscribe_social_section">
+      <section style="background-color:#F0F0F0;">
+          <div class="container-fluid row py-sm-5">
+            <div class="col-12 ml-lg-auto mr-lg-auto">
+              <div class="col-lg-4 col-md-8 mx-auto">
+                <div class="newsletter pt-lg-5 py-md-3">
+                  <div class="content text-center">
+                    <h2 style="font-size: 30px!important;font-weight: 500!important;color: #EE3B4F!important;" class="mt-lg-5 mt-md-5">GET IN TOUCH</h2>
+                    <h5 class="mt-lg-2 mt-md-2"> Subscribe for latest stories and promotions. For<br />latest stories and
+                      promotions
+                    </h5>
+                      <form action="/subscribe_action" id="subsForm" >
+                          <div class="input-group mb-lg-3 mb-md-3">
+                            <input type="email" name="subsemail" id="subsemail" class="form-control mt-lg-2 p-md-3 p-lg-3" placeholder="Enter your email"/>
+                            <span class="input-group-btn">
+                              <button type="button" id="subscribe" class="btn mt-lg-2">Subscribe Now</button>
+                            </span>
+                          </div>
+                      </form>
+                      <div id='contact_mail' style="text-align: center;color: green; margin-top:10px;"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 ml-lg-auto mr-lg-auto">
+              <div class="col-lg-5 mr-auto ml-auto mr-auto  mb-lg-5 pt-lg-2 bg-transparent text-center ">
+                <div class="h-100 ml-auto mr-auto">
+                  <!-- sm circle button-->
+                  <div class="mr-lg-auto ml-lg-auto justify-content-center center">
+                    <button style="background-color:#F6F8FC;" class="btn  circle btn-success  m-3"><a class=" mx-auto my-auto"
+                        href="#">
+                        <img src="/qpr_pages/static/src/img/facebook.svg" alt=""/></a></button>
+                    <button style="background-color:#F6F8FC;" class="btn circle btn-success  m-3"><a class=" mx-auto my-auto"
+                        href="#">
+                        <img src="/qpr_pages/static/src/img/twitter.svg" alt=""/></a></button>
+                    <button style="background-color:#F6F8FC;" class="btn circle btn-success  m-3"><a class=" mx-auto my-auto"
+                        href="#">
+                        <img src="/qpr_pages/static/src/img/youtube.svg" alt=""/></a></button>
+                    <button style="background-color:#F6F8FC;" class="btn circle btn-success  m-3"><a class=" mx-auto my-auto"
+                        href="#">
+                        <img src="/qpr_pages/static/src/img/linkedin.svg" alt=""/></a></button>
+                    <button style="background-color:#F6F8FC;" class="btn circle btn-success  m-3"><a class=" mx-auto my-auto"
+                        href="#">
+                        <img src="/qpr_pages/static/src/img/instagram.svg" alt=""/></a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </template>
+    <record id="website.homepage" model="ir.ui.view">
+        <field name="arch" type="xml">
+            <t name="Home" priority="29" t-name="website.homepage">
+                <t t-call="website.layout">
+                    <div class="oe_structure"/>
+                    <section class="smerp-banner">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6  col-md-6 col-sm-12 mt-md-1 my-lg-5 pr-lg-5 pr-md-0 py-lg-5 py-md-0 ">
+                                <div class="ml-xl-5 pl-xl-5 ml-lg-5 pl-lg-5  pl-md-2 pt-auto pb-auto py-sm-4 px-sm-2 text-md-left text-sm-center">
+                                    <h1 class="text-sm-center text-md-left text-lg-left mb-sm-4 ">An ERP Solution That Fits Into Your Business</h1>
+                                    <h5 class="text-light my-lg-2   pr-lg-5 pr-md-2 text-sm-center text-md-left">Do away with disconnected systems
+                                  and manage all of your business operations in a single platform with SMERP. From
+                                  purchasing to warehousing, stay on top of everything from wherever you are</h5>
+                                    <div class="mr-lg-3 pr-lg-2 mx-sm-auto mt-sm-4 mt-md-0">
+                                      <button type="button  pl-lg-4 pl-md-2" data-toggle="modal" data-target="#singup_modal" class="btncta btn-sec btn-md px-lg-5">Start
+                                          your 15 days trial !</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-sm-0 col-md-6 " >
+                                <img style="height:455px;" src="/qpr_pages/static/src/img/imgsmerp.png" alt=""/>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="padding-bottom-50" id="service-second">
+                        <div class="container-fluid text-center">
+                            <div class="heading-block service-third-lg center">
+                                <h2 style="color:#EE3B4F!important">Features of SMERP</h2>
+                                <span class="divcenter">SMERP has been specifically designed to help improve your businesses performance. Its functional coverage expands to many of different areas.</span>
+                            </div>
+                            <div class="row service-box-wrap">
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit1.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Integrated Inventory Management</h4>
+                                    <p class="service-content">Inventory management simplifies the process of managing and tracking of the stock level to improve efficiencies. With the help of SMERP’s Inventory solution, SMEs can efficiently manage the inventory.</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit2.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Customer Behaviour Analytics</h4>
+                                    <p class="service-content">Customer behaviour analytics is about understanding how your customers act across each channel and interaction point — digital or non-digital – and what influences their actions</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit3.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Automated Order Management</h4>
+                                    <p class="service-content">Automated Purchase Order management provides smart and easy steps to configure workflow and automate all or some of these specific processes.</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit4.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Point of Sale</h4>
+                                    <p class="service-content">SMERP POS is a retail point of sale system suitable for various small businesses (including online sellers) such as clothing and shoe stores, small franchises, sporting goods stores and gift shops.</p>
+                                </div>
+                            </div>
+
+                            <div class="row service-box-wrap">
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit5.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Accounting Management</h4>
+                                    <p class="service-content">Accounting is a necessary process for any business. Precise accounting is indeed needed for the smooth running of the company without any financial losses.</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit6.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Rewards &amp; Loyalty Program</h4>
+                                    <p class="service-content">Customer Retention is the key survival for most businesses. It is exponentially cheaper to keep current customers than gain new ones.</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit7.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Customer Relationship Management</h4>
+                                    <p class="service-content">SMERP gives you the ability to intelligently and efficiently manage leads, opportunities, tasks, issues, requests, bugs, campaigns, and claims.</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 service-box-col">
+                                    <figure>
+                                        <div class="service-image">
+                                            <img src="/qpr_pages/static/src/img/benefit8.svg"/>
+                                        </div>
+                                    </figure>
+                                    <h4>Invoicing Management</h4>
+                                    <p class="service-content">With SMERP, it is very easy to integrate into your business platform. Personalise and automate your invoices, so you don’t miss a payment.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <t t-call="qpr_pages.subscribe_social_section"/>
+                    <div class="oe_structure"/>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    
+</odoo>

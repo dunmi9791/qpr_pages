@@ -1,0 +1,287 @@
+.bg-100 {
+    background-color: red;
+}
+.btn-primary {
+    background-color: #EE3B4F !important;
+    border-color: #EE3B4F!important;
+}
+.h5 {
+    font-size: 16px!important;
+    line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 400!important;
+    color: #333333!important;
+}
+
+.h6 {
+    font-size: 16px!important;
+    font-family: 'raleway', sans-serif!important;
+    font-weight: 300!important;
+    color: #6d6d6d!important;
+    line-height: 1.6em!important;
+}
+#footer .h5 a {
+    color: #333333!important;
+    font-family: Montserrat!important;
+    font-size: 14px!important;
+}
+#top_menu .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.brand_color {
+    color: #EE3B4F!important;
+    border-color: #EE3B4F!important;
+}
+.boxedShadow {
+    -webkit-box-shadow: 0px -1px 10px 3px rgba(224, 224, 224, 0.81) !important;
+}
+.singup-back {
+    background-image: url(/qpr_pages/static/src/img/background.svg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#subscribe {
+    background: #999999;
+    color: white;
+}
+#footer h6 {
+    font-size: 16px!important;
+    font-family: 'raleway', sans-serif!important;
+    font-weight: 300!important;
+    color: #6d6d6d!important;
+    line-height: 1.6em!important;
+}
+#footer .footer-submenu {
+    font-size: 20px!important;
+}
+.hero {
+    background-image: url(../img/hero1440.svg);
+    /*width: 1440px;*/
+    height: 180px;
+}
+.smerp-banner {
+    background-image: url(/qpr_pages/static/src/img/banner1336.svg);
+    width: 100%;
+    height: 455px;
+    font-family: 'Montserrat', sans-serif!important;
+}
+.smerp-banner h1 {
+    color: white;
+}
+.smerp-banner h5 {
+    font-size: 16px!important;
+    line-height: 1.4em;
+    
+    font-weight: 400!important;
+}
+.smerp-banner img {
+    height: fit-content;
+}
+.smerp-banner .btncta {
+    position: relative;
+    padding: 10px 15px;
+    margin: 0.3125rem 1px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.428571;
+    text-decoration: none;
+    letter-spacing: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0.2rem;
+    outline: 0;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: box-shadow, transform;
+
+}
+.btn-sec {
+    color: #EE3B52!important;
+    background-color: #ffffff!important;
+    border-color: #fff!important;
+    box-shadow: none;
+}
+.btn.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px;
+}
+.pricing .card .back {
+    background-image: url('/qpr_pages/static/src/img/back.svg');
+    color: white;
+}
+.pricing .card .card-title span {
+    color: white !important;
+}
+.pricing .card .card-footer {
+    background: none;
+}
+.faqs .card, .about .card {
+
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0.05px solid #eeeeee;
+    border-radius: 0.25px;
+    height: fit-content;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.faqs .card-header, .about .card-header {
+    border-bottom: none;
+    padding: 0.2rem 0.2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eeeeee;
+
+}
+.faqs .card-body, .about .card-body {
+    font-size: 15px;
+}
+.faqs .var {
+    border-left: 2px solid #F09699;
+    margin-left: -3px;
+    /*position: absolute;
+    left: 9%;
+    margin-left: -3px;
+    top: 0;*/
+}
+.faqs .btn-block {
+    font-size: 18px;
+}
+.pricing .card li.list-group-item {
+    border: none;
+}
+/*Homepage*/
+#service-second .service-box-col:hover .service-image {
+       background: none !important;
+       color: #fff !important;
+}
+#service-second .service-box-col .service-title.title-bordered:before {
+   background-color: #555 !important;
+}
+.heading-block::after {
+    border:none !important;
+}
+#singup_modal .singup_screen input:focus, #singup_modal .singup_screen select:focus, .oe_login_form input:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+#singup_modal .singup_screen input, #singup_modal .singup_screen select {
+    border:none;
+    background: transparent !important;
+    border-bottom: 1px solid white !important;
+    outline-style: none;
+    color: #EE3B52!important;
+}
+
+/*Bootstrap 4*/
+
+@media (min-width: 320px) {
+    .text-sm-left {
+      text-align: left !important;
+    }
+    .text-sm-right {
+      text-align: right !important;
+    }
+    .text-sm-center {
+      text-align: center !important;
+    }
+    .static-sm-header .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .static-sm-header .navbar-nav li {
+        margin-right: 55%;
+        margin-top: 8px;
+    }
+    .static-sm-header .btn-ask-qst {
+        display: none;
+    }
+    .static-sm-header .h6 {
+        font-size: 14px !important;
+    }
+    .static-sm-header .phone {
+        margin-left: 8px !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .text-md-left {
+      text-align: left !important;
+    }
+    .text-md-right {
+      text-align: right !important;
+    }
+    .text-md-center {
+      text-align: center !important;
+    }
+    .static-sm-header .btn-ask-qst {
+        display: inline;
+    }
+    .static-sm-header .navbar-nav li {
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .static-sm-header .h6 {
+        font-size: 16px !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .text-lg-left {
+      text-align: left !important;
+    }
+    .text-lg-right {
+      text-align: right !important;
+    }
+    .text-lg-center {
+      text-align: center !important;
+    }
+    .static-sm-header .navbar-nav {
+        justify-content: flex-end;
+    }
+    .static-sm-header .btn-ask-qst {
+        display: inline;
+    }
+    .static-sm-header .navbar-nav li {
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .static-sm-header .h6 {
+        font-size: 16px !important;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .text-xl-left {
+      text-align: left !important;
+    }
+    .text-xl-right {
+      text-align: right !important;
+    }
+    .text-xl-center {
+      text-align: center !important;
+    }
+    .static-sm-header .navbar-nav {
+        justify-content: flex-end;
+    }
+    .static-sm-header .btn-ask-qst {
+        display: inline;
+    }
+    .static-sm-header .navbar-nav li {
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .static-sm-header .h6 {
+        font-size: 16px !important;
+    }
+  }
